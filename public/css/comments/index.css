@@ -1,0 +1,32 @@
+.comments {
+    margin-top: 50px;
+}
+
+.comment {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid;
+    margin: 10px 0;
+    align-items: flex-start;
+}
+
+.comment .left {
+    margin-right: 20px;
+}
+
+.comment .left img {
+    max-width: 44px;
+    max-height: 44px;
+}
+
+.comment .head {
+    margin-bottom: 15px;
+}
+
+.comment .head .title {
+    margin-right: 10px;
+}
+
+.comments_count {
+    color: #bbb;
+}

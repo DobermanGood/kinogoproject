@@ -1,0 +1,47 @@
+.film img {
+    max-width: 100%;
+}
+
+.film .video {
+    background-color: #111;
+    width: 100%;
+    height: auto;
+}
+
+.film-head .title {
+    display: inline;
+}
+
+.images {
+    margin: 30px 0;
+}
+
+.recommend {
+    margin: 50px 0;
+}
+
+.recommend .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recommend .links a {
+    margin: 0 5px;
+    max-width: 125px;
+    text-align: center;
+}
+
+.recommend .title {
+    text-align: center;
+}
+
+.bottom {
+    margin-bottom: -22px;
+}
+
+@media screen and (max-width: 767px) {
+    .bottom {
+        margin-bottom: 20px;
+    }
+}

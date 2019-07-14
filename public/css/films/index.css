@@ -1,0 +1,56 @@
+.film {
+    padding: 15px 0;
+    border-bottom: 1px solid #3f413f;
+    display: flex;
+    flex-direction: column;
+}
+
+.film .body img {
+    max-width: 200px;
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.film-head {
+    margin: 15px 0;
+}
+
+.film-head .title{
+    display: inline;
+}
+
+.film-head .votes{
+    float: right;
+    cursor: pointer;
+}
+
+.film-head .votes .on{
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    background-image: url("http://localhost:8000/storage/components/votes/on.png");
+}
+
+.film-head .votes .off{
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    background-image: url("http://localhost:8000/storage/components/votes/off.png");
+}
+
+.film-head .votes .off:hover{
+    background-image: url("http://localhost:8000/storage/components/votes/on.png");
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.info a {
+    color: #aaa;
+    margin-right: 5px;
+}
+
+.date {
+    float: right;
+}
